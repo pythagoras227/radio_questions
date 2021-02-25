@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&
+  display=swap');
+  <!importing ont>
+
+*{
+  box-sizing: border-box;
+  margin: 10;
+  padding: 15;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
