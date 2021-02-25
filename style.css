@@ -1,11 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&
-  display=swap');
-  <!importing ont>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 *{
   box-sizing: border-box;
   margin: 10;
-  padding: 15;
-  font-size: 24px;
+  padding: 10;
+  font-size: 36px;
   font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 2rem;<!rem font size of the root element indexdothtml>
+  color: w#fff;
+  margin-bottom:2rem;
+}
+
+h2{
+  font-size: 1.8rem
+  margin-bottom: 1.4rem
+}
+
+.container {
+  width: 100vw; <!% of view ports width>
+  height:100vh  <!% of view ports height>
+  display: flex; <!flexbox container defined in line 11 of index file>
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem
+  margin: 0 auto;
+  padding: 2 rem
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+  .flex-centre {
+    justify-content: center;
+    align-content: center;
+  }
+  .justify centre {
+    justify-content: center;
+  }
+
+  .text-centre {
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+.btn{
+  font-size: 1.6rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: rgb(255, 0, 0);
+  background: linear-gradient(90 deg), rgb(67, 90, 55) 0%, rgb(255,
+  255, 0) 100%);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor:pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+
+#highscore-btn {
+  background: linear-gradient(90 deg), rgb(67, 90, 55) 0%, rgb(255,
+  255, 0) 100%);
+}
+
+#highscore-btn:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+}
+
+.fa-crown {
+  font-size: 2rem;
+  margin-left: 1rem
+}
 }
