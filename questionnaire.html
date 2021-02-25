@@ -6,11 +6,30 @@
     initial-scale=1.0"><!zoom level>
     <title>Questions</title><!title in the main tab>
     <link rel="stylesheet" href="style.css"><!link to style sheet>
-    <link rel="stylesheet" href="questionnaire.css">
+    <!link rel="stylesheet" href="questionnaire.css">
   </head><!closes head>
   <body><!The body tag defines the document's body. The body element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. Note: There can only be one body element in an HTML document>
       <div class="container">
-        <div id="questionnaire" class="justify-centre flex-column"
+        <div id="questionnaire" class="justify-centre flex-column">
+          <div id="hud">
+            <div class="hud-item">
+              <p id="progressText" class="hud-prefix">
+                  Question
+              </p>
+              <div id="progressBar">
+                <div id="progressBarFull"></div>
+              </div>
+              <div class="hud-item">
+                <p class="hud-prefix"
+                  Score
+                </p>
+                <h1 class="hud-main-text" id="score">
+                  0
+                </h1>
+              </div>
+          </div>
+        </div>
       </div>
+    </div>
   </body>
   </html>

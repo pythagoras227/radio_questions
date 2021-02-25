@@ -3,20 +3,20 @@
 *{
   box-sizing: border-box;
   margin: 10;
-  padding: 10;
+  padding: 5;
   font-size: 36px;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1{
-  font-size: 2rem;<!rem font size of the root element indexdothtml>
+  font-size: 1.5rem;<!rem font size of the root element indexdothtml>
   color: w#fff;
   margin-bottom:2rem;
 }
 
 h2{
-  font-size: 1.8rem
-  margin-bottom: 1.4rem
+  font-size: 1rem
+  margin-bottom: 1rem
 }
 
 .container {
@@ -27,7 +27,7 @@ h2{
   align-items: center;
   max-width: 80rem
   margin: 0 auto;
-  padding: 2 rem
+  padding: 1 rem
 }
 
 .flex-column {
