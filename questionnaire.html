@@ -2,11 +2,10 @@
 <html lang="en-GB">
 <head>
     <meta charset="UTF-8"><!universal font meta is data describing data?>
-    <meta name="viewport" content="width=device-width,
-    initial-scale=1.0"><!zoom level>
-    <title>Questions</title><!title in the main tab>
+    <meta name="viewport" content="width=device-width, initial-scale=1. 0">
+    <title>Questions</title> <!title in the main tab>
     <link rel="stylesheet" href="style.css"><!link to style sheet>
-    <!link rel="stylesheet" href="questionnaire.css">
+    <link rel="stylesheet" href="questionnaire.css">
   </head><!closes head>
   <body><!The body tag defines the document's body. The body element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. Note: There can only be one body element in an HTML document>
       <div class="container">
@@ -19,7 +18,8 @@
               <div id="progressBar">
                 <div id="progressBarFull"></div>
               </div>
-              <div class="hud-item">
+            </div>
+            <div class="hud-item">
                 <p class="hud-prefix"
                   Score
                 </p>
@@ -28,8 +28,25 @@
                 </h1>
               </div>
           </div>
+          <div id="question">questionhere</div>
+          <div class="choice-container">
+            <p class="choice prefix">A</p>
+                <p class="choice-text" data-number="1">Choice 1</p>
+          </div>
+          <div class="choice-container">
+            <p class="choice prefix">B</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+          </div>
+          <div class="choice-container">
+            <p class="choice prefix">C</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+          </div>
+          <div class="choice-container">
+            <p class="choice prefix">D</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+          </div>
         </div>
       </div>
-    </div>
+     <script src="questionnaire.js"></script>
   </body>
   </html>
