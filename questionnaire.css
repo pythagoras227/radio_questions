@@ -1,14 +1,14 @@
 body {
-  color: #fff;
+  color: #555;
 }
 
 .choice-container {
   display: flex;
   margin-bottom: 0.8rem;
-  width; 100%;
+  width: 100%;
   border-radius: 4px;
-  background: rgb(18, 93, 255);
-  font-size: 3rem;
+  background: #6E8CEC;
+  font-size: 2rem;
   min-width: 80rem;
 }
 
@@ -21,5 +21,48 @@ body {
 
 .choice-prefix {
 padding: 2rem 2.5rem;
+color: blue;
+}
 
+.choice-text {
+  padding: 2rem
+  width: 100%
+}
+
+.correct {
+    background: linear-gradient(32deg, green) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgb(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+          }
+
+/*Heads up display*/
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: centre;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+/*#ProgressBar {
+    width: 20rem;
+    height: 30rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+*/
+@media screen and (max-width: 768px) {
+    .choice-container {
+      min-width: 4rem;
+    }
 }
